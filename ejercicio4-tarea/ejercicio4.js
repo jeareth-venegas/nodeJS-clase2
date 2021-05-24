@@ -8,18 +8,23 @@ posteriormente según sea la opción realizar alguna de estas operaciones:
 
 /*add*/
 
-exports.Program = function calculadora (a, operation, b){
+exports.Program = function calculadora (operation){
+    let a = 12;
+    let b = 10;
+
     if (operation == '+') {
-        operation = a + b;
-        return operation;
+        return operation = a + b;
+
     } else if (operation == '*'){
-        operation = a * b;
-        return operation;
+        return operation= a * b;
+
     } else if (operation == '/'){
-        operation = a / b;
-        return operation;
-    }else (operation == '-'){
-        operation = a - b;
-        return operation;
+        if (a == 0 || b == 0){
+            return 'Error';
+        }else{
+            return operation = a / b;
+        }
+    }else if (operation == '-') {
+        return operation = a - b;
     }
 }
