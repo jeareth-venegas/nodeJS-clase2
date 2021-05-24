@@ -1,10 +1,5 @@
 /*Desarrolle un algoritmo que permita ingresar la temperatura en grados y
-muestre la sensación térmica:
-• Menos de 10 grados: Hace mucho frío
-• Entre 10 y 15: Hace poco frío
-• 16 y 24 grados: Hace una temperatura normal
-• 25 y 30 grados: Hace poco calor
-• Mayor a 30 grados: Hace mucho calor*/
+muestre la sensación térmica:*/
 
 /*add*/
 
